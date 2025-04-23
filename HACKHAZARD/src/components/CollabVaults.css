@@ -1,0 +1,144 @@
+.collab-vaults {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.collab-vaults h1 {
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  color: #333;
+}
+
+.tab.active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
+
+.tab-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.invite-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.invite-form input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.invite-btn {
+  padding: 0.75rem 1.5rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.invite-btn:hover {
+  background: #1d4ed8;
+}
+
+.collaborators-list {
+  margin-top: 2rem;
+}
+
+.version-timeline {
+  border-left: 2px solid #ddd;
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+
+.timeline-entry {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.timeline-entry:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #2563eb;
+  border-radius: 50%;
+  position: absolute;
+  left: -2.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.timestamp {
+  color: #666;
+  font-size: 0.875rem;
+  margin-right: 1rem;
+}
+
+.contract-templates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.template-btn {
+  padding: 1rem;
+  background: #f3f4f6;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.template-btn:hover {
+  background: #e5e7eb;
+  border-color: #2563eb;
+}
+
+.visibility-toggle {
+  margin-bottom: 2rem;
+}
+
+.visibility-toggle label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.event-log {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 4px;
+}
